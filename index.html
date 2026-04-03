@@ -13,16 +13,16 @@
 
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#" class="navbar__link">Функция</a>
+            <a href="#intro" class="navbar__link">Функция</a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">Преимушества</a>
+            <a href="#selection" class="navbar__link">Преимушества</a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">Как использовать</a>
+            <a href="#selection2" class="navbar__link">Как использовать</a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">Частые вопрсоы</a>
+            <a href="#faq" class="navbar__link">Частые вопрсоы</a>
           </li>
 
           <select class="lan" name="" id="">
@@ -34,7 +34,7 @@
     </header>
 
     <main>
-      <section class="intro">
+      <section class="intro" id="intro">
         <div class="container intro__container">
           <img src="/assets/Color=White-Glossy.png" alt="" class="dicoration" />
           <div class="intro__left">
@@ -66,7 +66,7 @@
     </main>
 
     <div class="selection">
-      <div class="selection__container container">
+      <div class="selection__container container" id="selection">
         <div class="selection__top">
           <h1 class="selection__title">
             Встречайте — скриншоты и запись экрана <span>2 в 1</span>
@@ -127,13 +127,13 @@
     </div>
 
     <div class="upload">
-      <div class="upload__container container">
+      <div class="upload__container container" id="uploading">
         <img
           src="/assets/SuperToroid-White-Glossy.png"
           alt=""
           class="uploader__dicor"
         />
-        <div class="box2"></div>
+
         <div class="uploader__right">
           <label for="fileInput" class="contact__file">
             <input type="file" id="fileInput" hidden />
@@ -227,5 +227,369 @@
         </div>
       </div>
     </div>
+
+    <div class="upload">
+      <div class="upload__container container">
+        <img
+          src="/assets/SuperToroid-Purple-Glossy.png"
+          alt="glossy"
+          class="superToroid"
+        />
+        <div class="box2"></div>
+        <div class="uploader__right">
+          <h1 class="uploader__title">Запись экрана</h1>
+          <p class="uploader__text">
+            Недостаточно снимков? Запишите происходящее на экране со своим
+            голосом или звуком системы.
+            <br />
+            <br />
+            Достаточно нажать две кнопки мыши, выделить необходимую область и
+            начнется запись видео с экрана. Быстро и без сложных настроек
+          </p>
+        </div>
+        <div class="uploader__left">
+          <label for="fileInput" class="contact__file">
+            <input type="file" id="fileInput" hidden />
+            <img
+              src="/assets/Group 1.png"
+              alt="logo"
+              class="contact__file__img"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="selection">
+      <div class="selection__container container" id="selection2">
+        <div class="selection__bottom">
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/crayon 1.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Выбирайте цвет и рисуйте карандашом
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/fullscreen 1.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Используйте стрелку, круг или квадрат
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/chat 1.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Оставляйте <br />
+                комментарии
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/raindrop 1.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">Размывайте необходимую область</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="selection__btn">Скачать бесплатно</button>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="info__container container">
+        <img
+          src="/assets/Sphere-Purple-Glossy.png"
+          alt="sphere"
+          class="sphere"
+        />
+        <div class="info__table">
+          <h2 class="info__title">
+            <span>Screenshoter</span> - это функции на каждый день
+          </h2>
+          <div class="info__cards">
+            <div class="info__card">
+              <img
+                src="/assets/SuperToroid-Iridescent.png"
+                alt=""
+                class="info__img"
+              />
+              <div class="info__title__container">
+                <p class="info__number">01.</p>
+                <p class="info__title">
+                  Обмен <br />
+                  идеями
+                </p>
+              </div>
+              <p class="info__text">
+                Когда нужно что-то наглядно показать коллеге, исполнителю или
+                заказчику — можно сделать снимок экрана и добавить к нему
+                комментарий.
+                <br />
+                <br />
+                А если ситуация требует более детального объяснения — окей, не
+                проблема. Screenshoter поможет записать видео экрана вместе с
+                вашими голосовыми комментариями
+              </p>
+            </div>
+            <div class="info__card">
+              <img src="/assets/Cube-2.png" alt="" class="info__img" />
+              <div class="info__title__container">
+                <p class="info__number">02.</p>
+                <p class="info__title">
+                  Создание <br />
+                  инструкций
+                </p>
+              </div>
+              <p class="info__text">
+                Нужно что-то наглядно объяснить? Создавайте удобные, пошаговые
+                инструкции, добавляя комментарии и визуальные отметки в
+                необходимом месте скриншота.
+                <br />
+                <br />
+                Поделиться снимком или видеозаписью можно с помощью ссылки,
+                которая мгновенно появляется в буфере обмена
+              </p>
+            </div>
+            <div class="info__card">
+              <img
+                src="/assets/Cone-White-Glossy.png"
+                alt=""
+                class="info__img"
+              />
+              <div class="info__title__container">
+                <p class="info__number">03.</p>
+                <p class="info__title">
+                  Обратная <br />
+                  связь
+                </p>
+              </div>
+              <p class="info__text">
+                Если в процессе работы приложения, сайта или сервиса возникла
+                ошибка, её можно моментально зафиксировать.
+                <br />
+                <br />
+                Отправьте скриншот в техподдержку, где будет видно, в чем именно
+                заключается проблема
+              </p>
+            </div>
+          </div>
+          <div class="info__instruction">
+            <h2 class="info__title">
+              Как использовать <span>Screenshoter</span>
+            </h2>
+            <div class="instruction__cards">
+              <div class="instruction__card">
+                <p class="info__number">Шаг 1.</p>
+                <div class="instruction__table">
+                  <button class="instruction__btn">Скачать Бесплатно</button>
+                </div>
+                <p class="instruction__text">
+                  <span>Скачайте программу</span> <br />
+                  на свой ПК или ноутбук
+                </p>
+              </div>
+              <div class="instruction__card">
+                <p class="info__number">Шаг 2.</p>
+                <div class="instruction__table">
+                  <button class="instruction__btn">Скачать Бесплатно</button>
+                </div>
+                <p class="instruction__text">
+                  <span>Запустите Screenshoter:</span> <br />
+                  программа будет работать в фоновом режиме
+                </p>
+              </div>
+              <div class="instruction__card">
+                <p class="info__number">Шаг 3.</p>
+                <div class="instruction__table">
+                  <button class="instruction__btn">Скачать Бесплатно</button>
+                </div>
+                <p class="instruction__text">
+                  <span>Наслаждайтесь удобством</span> <br />
+                  и быстродействием
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="info__button">
+            <button class="info__btn">Скачать бесплатно</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="selection2">
+      <div class="selection__container container" id="selection">
+        <img
+          src="/assets/RoundCube-Purple-Glossy (1).png"
+          alt=""
+          class="roundCube"
+        />
+        <img src="/assets/Union.png" alt="union" class="union" />
+
+        <div class="selection__top">
+          <h1 class="selection__title">
+            <span>Screenshoter</span> полезен всем, <br />
+            кто работает в интернете
+          </h1>
+          <p class="selection__text">
+            Согласовывайте рабочие вопросы, показывайте интересные вещи и
+            обсуждайте любые темы. Делитесь комментариями с помощью бесплатного
+            инструмента 2 в 1
+          </p>
+        </div>
+        <div class="selection__bottom">
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/001-star.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Без регистрации: не нужно вводить никаких персональных данных
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/shield 1.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Бесплатно, без скрытых платежей и комиссий
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/Group.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Неограниченное количество скриншотов и записей
+              </p>
+            </div>
+          </div>
+          <div class="selection__box">
+            <div class="selection__box__container">
+              <img
+                src="/assets/002-cloud-computing.png"
+                alt="cursor"
+                class="selection__img"
+              />
+              <p class="selection__boxText">
+                Файлы хранятся в течение 1 года — вы можете удалить их в любое
+                время
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="faq">
+      <div class="faq__container" id="faq">
+        <h2 class="faq__title">FAQ</h2>
+        <img src="/assets/Cone-Purple-Glossy.png" alt="" class="faq__decor" />
+        <div class="faq__tables">
+          <div class="faq__table">
+            <p class="info__number">01.</p>
+            <p class="faq__ask">Платная ли программа?</p>
+            <img src="/assets/plus.png" alt="plus" class="faq__plus" />
+          </div>
+          <div class="faq__table">
+            <p class="info__number">02.</p>
+            <p class="faq__ask">Для каких платформ доступен Screenshoter?</p>
+            <img src="/assets/plus.png" alt="plus" class="faq__plus" />
+          </div>
+          <div class="faq__table">
+            <p class="info__number">03.</p>
+            <p class="faq__ask">
+              Чем Screenshoter отличается от других программ <br />
+              для создания скриншотов??
+            </p>
+            <img src="/assets/plus.png" alt="plus" class="faq__plus" />
+          </div>
+          <div class="faq__table">
+            <p class="info__number">04.</p>
+            <p class="faq__ask">Куда сохраняются скриншоты и видео?</p>
+            <img src="/assets/plus.png" alt="plus" class="faq__plus" />
+          </div>
+          <div class="faq__table">
+            <p class="info__number">05.</p>
+            <p class="faq__ask">
+              Можно ли удалить файлы с сервера в пару кликов?
+            </p>
+            <img src="/assets/plus.png" alt="plus" class="faq__plus" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="users">
+      <div class="users__container container">
+        <div class="users__left">
+          <img
+            src="/assets/Cone-White-Glossy.png"
+            alt=""
+            class="users__decor"
+          />
+          <div class="users__box"></div>
+          <img src="/assets/003-save.png" alt="" class="users__save" />
+        </div>
+        <div class="users__right">
+          <p class="users__text">
+            Присоединяйтесь к 50 000 + пользователей, которые ежедневно
+            используют Screenshoter в работе и личной переписке
+          </p>
+          <button class="intro__btn">Скачать бесплатно</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <img src="/assets/Layer 2.png" alt="logo" class="footer__logo" />
+        <ul class="footer__menu">
+          <p class="footer__text">Продукт</p>
+          <li class="footer__item">
+            <a href="" class="footer__link">Функции</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Преимущества</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Как использовать</a>
+          </li>
+        </ul>
+        <p class="footer__text">Обратная связь</p>
+        <p class="footer__text">Политика конфиденциальности</p>
+      </div>
+    </footer>
   </body>
 </html>
